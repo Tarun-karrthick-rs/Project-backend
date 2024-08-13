@@ -4,7 +4,7 @@ var cors=require('cors')
 var bodyParser=require('body-parser')
 var User=require('./models/users.js')
 var app=express()
-var allowedOrigins=["http://localhost:3000"]
+var allowedOrigins=["http://localhost:3000" ,"https://project-frontend-eta-seven.vercel.app"]
 app.use(
     cors({
         origin:allowedOrigins,
